@@ -18,13 +18,7 @@
 ### 测试脚本
 在对数据进行测试之前，我们首先要了解的就是这些数据的表结构是怎样的：有哪些字段、字段的约束等，一般都会有相应的数据库设计文档进行说明，比如，本次我们要测试的数据的表结构如下：
 
-列名 | 数据类型 | 是否空  | 备注
----|---|---|---|---
-_id | Objectid | No | 主键
-uniformSocialCreditCode | String | No |   统一社会信用代码
-enterpriseName| String | No |企业名称 
-legalRepresentative| String | Yes | 法定代表人
-provinceCode| String | No | 6位省份代码
+![数据库表结构.png](https://upload-images.jianshu.io/upload_images/12273007-97c3800a1105a0c5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 下面是测试的脚本，在脚本中，我进行了详尽的注释
 
